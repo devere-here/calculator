@@ -1,0 +1,48 @@
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+  <link rel="stylesheet" href= "main.css"></link>
+</head>
+
+
+<div id="calculator">
+  <div id="title">Electronic Calculator</div>
+  <div id="screen">
+    <div id="main-screen">
+      <div id="main-content"></div>
+    </div>
+    <div id="sub-screen">
+      <div id="sub-content"></div>
+    </div> 
+  </div>
+  <div id="button-pad">
+    <!--first row-->
+    <div class="button" id="all-clear">AC</div>
+    <div class="button" id="clear-entry">CE</div>
+    <div class="button" data-operation = "/">&divide</div>
+    <div class="button" data-operation = "*">x</div>
+    <!--second row-->
+    <div class="button" data-value ="7">7</div>
+    <div class="button" data-value ="8">8</div>
+    <div class="button" data-value ="9">9</div>
+    <div class="button" data-operation = "-">-</div>
+    <!--third row-->
+    <div class="button" data-value ="4">4</div>
+    <div class="button" data-value ="5">5</div>
+    <div class="button" data-value ="6">6</div>
+    <div class="button" data-operation = "+">+</div>
+    <!--fourth row-->
+    <div class="button" data-value ="1">1</div>
+    <div class="button" data-value ="2">2</div>
+    <div class="button" data-value ="3">3</div>
+    <div class="button" id="equal-button">=</div>
+    <!--fifth row-->
+    <div></div>
+    <div class="button" id="change-sign">+/-</div>
+    <div class="button" id="zero-button" data-value = "0">0</div>
+    <div class="button" data-value=".">.</div>
+  </div>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="actions.js"></script>
