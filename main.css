@@ -1,8 +1,9 @@
-body{
+body {
   background-color: midnightBlue;
   font-family: "Orbitron", sans-serif;
 }
-#calculator{
+
+#calculator {
   height: 400px;
   width: 300px;
   background-color: white;
@@ -10,92 +11,89 @@ body{
   border-radius: 5%;
   box-shadow: 5px 5px black;
   background-color: ivory;
-  
 }
-#title{
-  width: 250px;
+
+#title {
   height: 35px;
-  text-align: center;
-  verticle-align: middle;
+  width: 250px;
   line-height: 35px;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
-  
 }
-#screen{
+
+#screen {
   width: 250px;
   height: 80px;
   background-color: silver;
   margin: 0px auto 10px auto;
-  
 }
-#main-screen{
-  width: 250px;
+
+#main-screen {
   height: 60px;
-  text-align: right;
-  verticle-align: middle;
+  width: 250px;
   line-height: 60px;
+  text-align: right;
   font-size: 28px;
   overflow: hidden;
-  
 }
-#main-content{
+
+#main-content {
   float: right;
-  
 }
-#sub-screen{
-  width: 250px;
+
+#sub-screen {
   height: 20px;
-  text-align: right;
-  verticle-align: middle;
+  width: 250px;
   line-height: 20px;
-  color: rgb(56, 56, 56);
+  text-align: right;
+  color: #383838;
   overflow: hidden;
-  
 }
-#sub-content{
+
+#sub-content {
   float: right;
-  
 }
-#button-pad{
+
+#button-pad {
   width: 280px;
   height: 260px;
   margin-left: auto;
   margin-right: auto;
-  font-size: 16px;  
-
+  font-size: 16px;
 }
-.button{
-  width: 50px;
+
+.button {
   height: 40px;
-  background-color: rgb(40, 40, 40);
+  width: 50px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #282828;
   display: inline-block;
   margin: 8px;
   margin-top: 4px;
   margin-bottom: 4px;
-  text-align:center;
-  verticle-align: middle;
-  line-height: 40px;
   font-weight: bold;
   border-radius: 10%;
   color: white;
   cursor: pointer;
   box-shadow: 0px 1.5px gray;
-  
 }
-.button:active{
+
+.button:active {
   transform: translateY(1.5px);
   box-shadow: 0px 0px gray;
-  
 }
-#equal-button{
+
+#equal-button {
   height: 93px;
   position: absolute;
   line-height: 93px;
   margin-left: 12px;
-  
 }
-#all-clear, #clear-entry{
-  background-color: rgb(156, 0, 0);
-  
+
+#all-clear, #clear-entry {
+  background-color: #9c0000;
 }
+
+/*# sourceMappingURL=main.css.map */
